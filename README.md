@@ -9,7 +9,7 @@ This is a user guide for the EuroTeQ Enrolment Automation System
 <ins>Production server name:</ins> AIT-PWEBEUT02.win.dtu.dk\
 <ins>Test server name:</ins> ait-dwebeut01.win.dtu.dk
 
-  _Remember to place "WIN/" before the username_
+  _Remember to place "WIN\" before the username_
 
 <img width="1130" height="654" alt="image" src="https://github.com/user-attachments/assets/de1df6c5-99fe-48ab-8317-dc136a6fcb0d" />
 

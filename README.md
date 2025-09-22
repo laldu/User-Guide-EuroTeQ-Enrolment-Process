@@ -17,6 +17,16 @@ This is a user guide for the EuroTeQ Enrolment Automation System
 
 <img width="864" height="512" alt="image" src="https://github.com/user-attachments/assets/77a837e5-57e2-469b-95c9-921188ec2957" />
 
+## Entering the Enrolment Environment
+
+### To check outgoing students
+1. After opening PG admin wait for it to load
+2. Click the dropdown button on "Servers"
+3. Under databases, click on the database titled: "student_mobility_enrollment_reciever_business"
+4. Go under "schemas" and there should be a section labeled "tables"
+5. That is where you will be enrolling students
+
+<img width="551" height="574" alt="pgAdminDropdown" src="https://github.com/user-attachments/assets/c870933e-bbde-4582-98c9-779bb83965f9" />
 
 
 

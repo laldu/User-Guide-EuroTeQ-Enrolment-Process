@@ -35,7 +35,7 @@ This is a user guide for the EuroTeQ Enrolment Automation System
 4. Go under "schemas" and there should be a section labeled "tables"
 5. That is where you will be enrolling students
 
-<img width="950" height="1025" alt="pgAdmin_openingHomeMiljøDropdown" src="https://github.com/user-attachments/assets/36f03cb0-f5a9-45e2-b7db-fa5b93bd8f92" />
+<img width="475" height="512" alt="pgAdmin_openingHomeMiljøDropdown" src="https://github.com/user-attachments/assets/36f03cb0-f5a9-45e2-b7db-fa5b93bd8f92" />
 
 
 

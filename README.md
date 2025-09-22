@@ -1,6 +1,8 @@
 # User Guide EuroTeQ Enrolment Process
 This is a user guide for the EuroTeQ Enrolment Automation System
 
+-- Table of contents --
+
 ## Login
 ### Go to Remote Desktop Connection
 <img width="1283" height="818" alt="image" src="https://github.com/user-attachments/assets/ff6ac2f4-e9d2-45d2-b88f-ee4a29c93070" />
@@ -37,6 +39,10 @@ This is a user guide for the EuroTeQ Enrolment Automation System
 
 <img width="475" height="512" alt="pgAdmin_openingHomeMiljøDropdown" src="https://github.com/user-attachments/assets/d9f19343-17ea-4174-be38-3e9121b0ec5c" />
   
+## How to make enrolment decisions on incoming students
+
+## How to make enrolment decisions on outgoing DTU students
+
 
 
 

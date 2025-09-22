@@ -19,14 +19,26 @@ This is a user guide for the EuroTeQ Enrolment Automation System
 
 ## Entering the Enrolment Environment
 
-### To check outgoing students
+### To access the host enrolment environment (incoming students)
 1. After opening PG admin wait for it to load
-2. Click the dropdown button on "Servers"
+2. Click the dropdown button on "Servers" under "Object Explorer"
 3. Under databases, click on the database titled: "student_mobility_enrollment_reciever_business"
 4. Go under "schemas" and there should be a section labeled "tables"
 5. That is where you will be enrolling students
 
 <img width="551" height="574" alt="pgAdminDropdown" src="https://github.com/user-attachments/assets/c870933e-bbde-4582-98c9-779bb83965f9" />
+
+### To access the home enrolment environment (outgoing students)
+1. After opening PG admin wait for it to load
+2. Click the dropdown button on "Servers" under "Object Explorer"
+3. Under databases, click on the database titled: "student_mobility_home_institution"
+4. Go under "schemas" and there should be a section labeled "tables"
+5. That is where you will be enrolling students
+
+<img width="950" height="1025" alt="pgAdmin_openingHomeMiljøDropdown" src="https://github.com/user-attachments/assets/36f03cb0-f5a9-45e2-b7db-fa5b93bd8f92" />
+
+
+
 
 
 

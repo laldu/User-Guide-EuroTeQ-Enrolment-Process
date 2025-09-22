@@ -3,8 +3,8 @@ This is a user guide for the EuroTeQ Enrolment Automation System
 
 ### Table of contents
 1. [Login](#Login)
-2. [Entering enrolment environment](#Entering-the-Enrolment-Environment)
-3. [Usage Examples](#usage-examples)
+2. [Entering the enrolment environment](#Entering-the-Enrolment-Environment)
+3. [Usage Examples](#How-to-make-enrolment-decisions-on-incoming-students)
 
 ## Login
 ### Go to Remote Desktop Connection

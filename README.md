@@ -1,7 +1,7 @@
 # User Guide for EuroTeQ Enrolment Process
 This is a user guide for the EuroTeQ Enrolment Automation System
 
-_Note_: To see the table of contents 
+_Note_: To see the table of contents click on the outline button in the top-right corner
 
 ## Login
 ### Go to Remote Desktop Connection

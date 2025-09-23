@@ -79,13 +79,13 @@ This is a user guide for the EuroTeQ Enrolment Automation System
    - This means that the enrolment has been denied.
    - Denials may occur automatically via various checks.
 4. PENDING
-  - This means a decision has not been made on the enrolment
+   - This means a decision has not been made on the enrolment
 5. CANCELED
-  - This means that the student has withdrawn their application
-  - This should only occur for incoming students via the cancellation link, which incoming students recieve in the emails from DTU
+   - This means that the student has withdrawn their application
+   - This should only occur for incoming students via the cancellation link, which incoming students recieve in the emails from DTU
 6. QUEUED
-  - This is used when the student has been placed in a waiting list.
-  - This status is not in use as of Fall 2025.
+   - This is used when the student has been placed in a waiting list.
+   - This status is not in use as of Fall 2025.
 
 
 

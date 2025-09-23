@@ -5,6 +5,7 @@ This is a user guide for the EuroTeQ Enrolment Automation System
 1. [Login](#Login)
 2. [Entering the enrolment environment](#Entering-the-Enrolment-Environment)
 3. [How to make enrolment decisions on incoming students](#How-to-make-enrolment-decisions-on-incoming-students)
+4. 
 
 ## Login
 ### Go to Remote Desktop Connection
@@ -44,15 +45,30 @@ This is a user guide for the EuroTeQ Enrolment Automation System
   
 ## How to make enrolment decisions on incoming students
 
+### Making an enrolment decision
+
+Go to the table labeled as "enrolment_business_decision". Each row within that table is a separate enrolment. Status is where you will change the enrolment decision to one of the enrolment states. 
+
 ## How to make enrolment decisions on outgoing DTU students
 
 ### Making an enrolment decision
-1. Go to the table called "associations"
+1. Go to the table labeled "associations"
 2. Each row is an enrolment
 3. Under the "state" column you can see the enrolment status from DTU
 4. Under the "remote-state" column you can see the enrolment status from the host university
 
 ### Seeing more information 
+
+## Extra Information
+
+### Enrolment States
+
+1. not_considered
+2. associated
+3. denied
+4. pending
+5. canceled
+6. queued
 
 
 

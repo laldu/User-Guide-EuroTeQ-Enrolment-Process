@@ -45,13 +45,20 @@ This is a user guide for the EuroTeQ Enrolment Automation System
   
 ## How to make enrolment decisions on incoming students
 
-### Making an enrolment decision
+### Making an enrolment decision as the host university
 
-Go to the table labeled as "enrolment_business_decision". Each row within that table is a separate enrolment. Status is where you will change the enrolment decision to one of the enrolment states. 
+1. Right click on the table labeled as "enrolment_business_decision".
+     - Each row within that table is a separate enrolment.
+     - The "status" column is where you will change the enrolment decision to one of the [enrolment states](#enrolment-states).
+     - When first seeing the table any enrolments that we have not made a decision on should be labeled as "not_considered".
+3. Double-click on the status of the enrolment and type in a new enrolment status.
+   - If you would like to see more information regarding the student and the enrolment see the following [section](#seeing-more-incoming-student-information).
+
+### Seeing more incoming student information
 
 ## How to make enrolment decisions on outgoing DTU students
 
-### Making an enrolment decision
+### Making an enrolment decision as the home university
 1. Go to the table labeled "associations"
 2. Each row is an enrolment
 3. Under the "state" column you can see the enrolment status from DTU
@@ -63,12 +70,12 @@ Go to the table labeled as "enrolment_business_decision". Each row within that t
 
 ### Enrolment States
 
-1. not_considered
-2. associated
-3. denied
-4. pending
-5. canceled
-6. queued
+1. NOT_CONSIDERED
+2. ASSOCIATED
+3. DENIED
+4. PENDING
+5. CANCELED
+6. QUEUED
 
 
 

@@ -1,11 +1,7 @@
 # User Guide for EuroTeQ Enrolment Process
 This is a user guide for the EuroTeQ Enrolment Automation System
 
-### Table of contents
-1. [Login](#Login)
-2. [Entering the enrolment environment](#Entering-the-Enrolment-Environment)
-3. [How to make enrolment decisions on incoming students](#How-to-make-enrolment-decisions-on-incoming-students)
-4. 
+_Note_: To see the table of contents 
 
 ## Login
 ### Go to Remote Desktop Connection
@@ -65,6 +61,8 @@ https://github.com/user-attachments/assets/24781cac-3a3e-4011-84bf-7702286fb327
 
 
 ### Seeing more incoming student information
+
+In order to see more information on an incoming student you must go to the "persons" table in the database. 
 
 ## How to make enrolment decisions on outgoing DTU students
 

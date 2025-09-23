@@ -47,12 +47,22 @@ This is a user guide for the EuroTeQ Enrolment Automation System
 
 ### Making an enrolment decision as the host university
 
-1. Right click on the table labeled as "enrolment_business_decision".
-     - Each row within that table is a separate enrolment.
-     - The "status" column is where you will change the enrolment decision to one of the [enrolment states](#enrolment-states).
-     - When first seeing the table any enrolments that we have not made a decision on should be labeled as "not_considered".
-2. Double-click on the status of the enrolment and type in a new enrolment status.
-   - If you would like to see more information regarding the student and the enrolment see the following [section](#seeing-more-incoming-student-information).
+1. Right click on the table labeled as "enrolment_business_decision", click on "View/Edit Data, click on "all rows"
+    - Each row within that table is a separate enrolment.
+    - The "status" column is where you will change the enrolment decision to one of the [enrolment states](#enrolment-states).
+    - When first seeing the table any enrolments that we have not made a decision on should be labeled as "NOT_CONSIDERED".
+
+2. Double-click on the status of the enrolment, type in a new enrolment status, and click "OK"
+    - _Remember_: the status can only be input in upper-case
+    - If you would like to see more information regarding the student and the enrolment see the following [section](#seeing-more-incoming-student-information).
+
+3. If you are certain about the decision, change the "send_status_to_home" field to __true__
+    - Click on the checkbox until it changes to a checkmark, then it will be true
+
+4. Click on the button labeled as "Save Data Changes"
+
+https://github.com/user-attachments/assets/24781cac-3a3e-4011-84bf-7702286fb327
+
 
 ### Seeing more incoming student information
 

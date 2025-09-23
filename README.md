@@ -51,7 +51,7 @@ This is a user guide for the EuroTeQ Enrolment Automation System
      - Each row within that table is a separate enrolment.
      - The "status" column is where you will change the enrolment decision to one of the [enrolment states](#enrolment-states).
      - When first seeing the table any enrolments that we have not made a decision on should be labeled as "not_considered".
-3. Double-click on the status of the enrolment and type in a new enrolment status.
+2. Double-click on the status of the enrolment and type in a new enrolment status.
    - If you would like to see more information regarding the student and the enrolment see the following [section](#seeing-more-incoming-student-information).
 
 ### Seeing more incoming student information
@@ -66,16 +66,26 @@ This is a user guide for the EuroTeQ Enrolment Automation System
 
 ### Seeing more information 
 
-## Extra Information
+## Appendix
 
 ### Enrolment States
 
 1. NOT_CONSIDERED
+   - This state means that the application has been recieved and that a DTU admin has not changed its status.
+   - While in this state the partner university sees the status as "pending".
 2. ASSOCIATED
+   - This state means that the enrolment has been accepted.
 3. DENIED
+   - This means that the enrolment has been denied.
+   - Denials may occur automatically via various checks.
 4. PENDING
+  - This means a decision has not been made on the enrolment
 5. CANCELED
+  - This means that the student has withdrawn their application
+  - This should only occur for incoming students via the cancellation link, which incoming students recieve in the emails from DTU
 6. QUEUED
+  - This is used when the student has been placed in a waiting list.
+  - This status is not in use as of Fall 2025.
 
 
 

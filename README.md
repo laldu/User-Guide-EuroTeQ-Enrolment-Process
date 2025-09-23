@@ -72,7 +72,8 @@ In order to see more information on an incoming student you must go to the "pers
 ### Sending emails to incoming students
 
 1. In order to send an email to an incoming student you must mark the **send_status_to_home** field as _true_ in the "enrolment_business_decision" table.
-2. Then click on the button labeled as "Save Data Changes"
+    - Set the checkbox to a check symbol to mark it as _true_
+3. Then click on the button labeled as "Save Data Changes"
     - This will automatically send an email updating the student of his enrolment status.
     - If you would like to know more about the automated email system read [here](#Automated-Email).
 

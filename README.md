@@ -57,7 +57,9 @@ _Note_: To see the table of contents click on the outline button in the top-righ
 
 4. Click on the button labeled as "Save Data Changes"
 
+
 https://github.com/user-attachments/assets/24781cac-3a3e-4011-84bf-7702286fb327
+
 
 
 ### Seeing more incoming student information
@@ -86,7 +88,9 @@ In order to see more information on an incoming student you must go to the "pers
      - _Remember_: the state is case sensitive and must be in upper-case
 5. Click on the button labeled as "Save Data Changes"
 
+
 https://github.com/user-attachments/assets/586e675c-e606-4c0d-8d1e-70e3b0ee3e25
+
 
 ### Seeing more information
 

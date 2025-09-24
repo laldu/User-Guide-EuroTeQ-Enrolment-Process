@@ -23,11 +23,11 @@ _Note: place WIN\ before the username_
 ### After the remote desktop starts open PGAdmin 4
 
 <img width="864" height="512" alt="image" src="https://github.com/user-attachments/assets/77a837e5-57e2-469b-95c9-921188ec2957" />
+  
+## How to make enrolment decisions on incoming students
 
+### Accessing the Host Enrolment Data
 
-## Entering the Enrolment Environment
-
-### To access the host enrolment environment (incoming students)
 1. After opening PG admin wait for it to load
 2. Click the dropdown button on "Servers" under "Object Explorer"
 3. Under databases, click on the database titled: "student_mobility_enrollment_reciever_business"
@@ -35,17 +35,6 @@ _Note: place WIN\ before the username_
 5. That is where you will be enrolling students
 
 <img width="551" height="574" alt="pgAdminDropdown" src="https://github.com/user-attachments/assets/c870933e-bbde-4582-98c9-779bb83965f9" />
-
-### To access the home enrolment environment (outgoing students)
-1. After opening PG admin wait for it to load
-2. Click the dropdown button on "Servers" under "Object Explorer"
-3. Under databases, click on the database titled: "student_mobility_home_institution"
-4. Go under "schemas" and there should be a section labeled "tables"
-5. That is where you will be enrolling students
-
-<img width="475" height="512" alt="pgAdmin_openingHomeMiljøDropdown" src="https://github.com/user-attachments/assets/d9f19343-17ea-4174-be38-3e9121b0ec5c" />
-  
-## How to make enrolment decisions on incoming students
 
 ### Making an enrolment decision as the host university
 
@@ -63,9 +52,7 @@ _Note: place WIN\ before the username_
 
 4. Click on the button labeled as "Save Data Changes"
 
-
 https://github.com/user-attachments/assets/24781cac-3a3e-4011-84bf-7702286fb327
-
 
 
 ### Seeing more incoming student information
@@ -102,6 +89,15 @@ If you look at the first photo we are in the "enrolment_business_decision" table
 
 ## How to make enrolment decisions on outgoing DTU students
 
+### Accessing the Home Enrolment Data
+1. After opening PG admin wait for it to load
+2. Click the dropdown button on "Servers" under "Object Explorer"
+3. Under databases, click on the database titled: "student_mobility_home_institution"
+4. Go under "schemas" and there should be a section labeled "tables"
+5. That is where you will be enrolling students
+
+<img width="475" height="512" alt="pgAdmin_openingHomeMiljøDropdown" src="https://github.com/user-attachments/assets/d9f19343-17ea-4174-be38-3e9121b0ec5c" />
+
 ### Making an enrolment decision as the home university
 1. Right click on the table labeled as "associations", click on "View/Edit Data, click on "all rows"
      - Each row is an enrolment
@@ -115,7 +111,7 @@ If you look at the first photo we are in the "enrolment_business_decision" table
 
 https://github.com/user-attachments/assets/586e675c-e606-4c0d-8d1e-70e3b0ee3e25
 
-### Seeing more information
+### Seeing more DTU student information
 
 In order to see more information on an outgoing student you must go to the "user_object" table in the database. There you will see each student has a **uuid**. Each row in the "user_object" table is a separate student, not a separate enrolment. You can find the outgoing student you are looking for by matching the **person_id** from the "associations" table with the **uuid** in the "user_object" table. Within the "user_object" table you should be able to see the basic information needed in order to make an enrolment decision.
 

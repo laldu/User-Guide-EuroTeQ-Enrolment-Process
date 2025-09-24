@@ -4,28 +4,25 @@ This is a user guide for the EuroTeQ Enrolment Automation System
 _Note_: To see the table of contents click on the outline button in the top-right corner
 
 ## Login
-**Go to Remote Desktop Connection**
+### Go to Remote Desktop Connection
 
 <img width="1283" height="818" alt="image" src="https://github.com/user-attachments/assets/ff6ac2f4-e9d2-45d2-b88f-ee4a29c93070" />
 
-**Input server name and username, press "Connect", and enter password**\
+### Input server name and username, press "Connect", and enter password
 _Note: place WIN\ before the username_
 
 <ins>Production server name:</ins> AIT-PWEBEUT02.win.dtu.dk\
 <ins>Test server name:</ins> ait-dwebeut01.win.dtu.dk
 
+<img width="1130" height="654" alt="image" src="https://github.com/user-attachments/assets/de1df6c5-99fe-48ab-8317-dc136a6fcb0d" />
 
 >[!IMPORTANT]
 >If you try to log in and are redirected to a screen saying there are already two users and you must kick off one, do not kick off Kasper. Kick the other user.
 <!-- Make sure to change this bit about Kasper and add picture when the situation shows up -->
 
-<img width="1130" height="654" alt="image" src="https://github.com/user-attachments/assets/de1df6c5-99fe-48ab-8317-dc136a6fcb0d" />
-
-**After the remote desktop starts open PGAdmin 4**
+### After the remote desktop starts open PGAdmin 4
 
 <img width="864" height="512" alt="image" src="https://github.com/user-attachments/assets/77a837e5-57e2-469b-95c9-921188ec2957" />
-
-
 
 
 ## Entering the Enrolment Environment
@@ -52,7 +49,7 @@ _Note: place WIN\ before the username_
 
 ### Making an enrolment decision as the host university
 
-1. Right click on the table labeled as "enrolment_business_decision", click on "View/Edit Data, click on "all rows"
+1. Right click on the table labeled as "enrolment_business_decision", click on "View/Edit Data", click on "all rows"
     - Each row within that table is a separate enrolment.
     - The "status" column is where you will change the enrolment decision to one of the [enrolment states](#enrolment-states).
     - When first seeing the table any enrolments that we have not made a decision on should be labeled as "NOT_CONSIDERED".
@@ -82,13 +79,17 @@ In order to see more information on an incoming student you must go to the "pers
 
 1. In order to send an email to an incoming student you must mark the **send_status_to_home** field as _true_ in the "enrolment_business_decision" table.
     - Set the checkbox to a check symbol to mark it as _true_
-3. Then click on the button labeled as "Save Data Changes"
+2. Then click on the button labeled as "Save Data Changes"
     - This will automatically send an email updating the student of his enrolment status.
+    - If you would like to send an acceptance email it is best to first [check the home university's enrolment status](#Checking-a-student's-home-university-enrolment-status)
     - If you would like to know more about the automated email system read [here](#Automated-Email).
   
 <img width="1914" height="289" alt="image" src="https://github.com/user-attachments/assets/f4d0c923-f1ba-4a66-91ab-0e2624b05cef" />
 
+### Checking a student's home university enrolment status
 
+1. Go to the table labeled as "enrolment_home_association"
+2. 
 
 ## How to make enrolment decisions on outgoing DTU students
 

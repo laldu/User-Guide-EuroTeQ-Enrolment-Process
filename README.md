@@ -26,7 +26,7 @@ _Note: place WIN\ before the username_
   
 ## How to make enrolment decisions on incoming students
 
-### Accessing the Host Enrolment Data
+### Accessing the incoming student enrolment data
 
 1. After opening PG admin wait for it to load
 2. Click the dropdown button on "Servers" under "Object Explorer"
@@ -89,7 +89,7 @@ If you look at the first photo we are in the "enrolment_business_decision" table
 
 ## How to make enrolment decisions on outgoing DTU students
 
-### Accessing the Home Enrolment Data
+### Accessing the outgoing student enrolment data
 1. After opening PG admin wait for it to load
 2. Click the dropdown button on "Servers" under "Object Explorer"
 3. Under databases, click on the database titled: "student_mobility_home_institution"

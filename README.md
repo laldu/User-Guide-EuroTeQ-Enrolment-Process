@@ -24,7 +24,7 @@ _Note: place WIN\ before the username_
 
 <img width="864" height="512" alt="image" src="https://github.com/user-attachments/assets/77a837e5-57e2-469b-95c9-921188ec2957" />
   
-## How to make enrolment decisions on incoming students
+## How to make enrolment decisions for incoming students
 
 ### Accessing the incoming student enrolment data
 
@@ -68,12 +68,12 @@ In order to see more information on an incoming student you must go to the "pers
     - Set the checkbox to a check symbol to mark it as _true_
 2. Then click on the button labeled as "Save Data Changes"
     - This will automatically send an email updating the student of his enrolment status.
-    - If you would like to send an acceptance email it is best to first [check the home university's enrolment status](#checking-a-home-university-enrolment-status) to make sure that the status is also an acceptance.
+    - If you would like to send an acceptance email it is best to first [check the partner university's enrolment status](#checking-the-enrolment-status-from-the-partner-university) to make sure that the status is also an acceptance.
     - If you would like to know more about the automated email system read [here](#Automated-Email).
   
 <img width="1914" height="289" alt="image" src="https://github.com/user-attachments/assets/f4d0c923-f1ba-4a66-91ab-0e2624b05cef" />
 
-### Checking a home university enrolment status
+### Checking the enrolment status from the partner university
 
 1. Go to the table labeled as "enrolment_home_association"
 2. Look at the **enrolment_business_decision_id** and match it with the **id** from the "person" table
@@ -87,7 +87,7 @@ See an example below:
 
 If you look at the first photo we are in the "enrolment_business_decision" table. We are interested in the enrolment labeled with the id that equals 2. In the second photo we then find the enrolments that have the "enrolment_business_decision_id" which equal 2. There are four rows of information, by looking at the **created_at** column we see the most recent enrolment of the four, it being created at 12:01:01 on september 23rd. When we look at the **state** it is canceled. That means the home university has decided this enrolment is canceled.
 
-## How to make enrolment decisions on outgoing DTU students
+## How to make enrolment decisions for outgoing DTU students
 
 ### Accessing the outgoing student enrolment data
 1. After opening PG admin wait for it to load
@@ -104,10 +104,11 @@ If you look at the first photo we are in the "enrolment_business_decision" table
 2. Go to the state column and double click on the state
      - The **state** column is the status that DTU sets for their outgoing students
      - The **remote state** column is the status that DTU recieves from the partner university who is hosting their student
+> [!IMPORTANT]
+> Do not change the remote state!
 3. Type in the enrolment state and click "OK"
      - _Remember_: the state is case sensitive and must be in upper-case
 5. Click on the button labeled as "Save Data Changes"
-
 
 https://github.com/user-attachments/assets/586e675c-e606-4c0d-8d1e-70e3b0ee3e25
 

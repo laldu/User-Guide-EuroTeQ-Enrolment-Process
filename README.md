@@ -81,15 +81,24 @@ In order to see more information on an incoming student you must go to the "pers
     - Set the checkbox to a check symbol to mark it as _true_
 2. Then click on the button labeled as "Save Data Changes"
     - This will automatically send an email updating the student of his enrolment status.
-    - If you would like to send an acceptance email it is best to first [check the home university's enrolment status](#Checking-a-student's-home-university-enrolment-status)
+    - If you would like to send an acceptance email it is best to first [check the home university's enrolment status](#checking-a-home-university-enrolment-status) to make sure that the status is also an acceptance.
     - If you would like to know more about the automated email system read [here](#Automated-Email).
   
 <img width="1914" height="289" alt="image" src="https://github.com/user-attachments/assets/f4d0c923-f1ba-4a66-91ab-0e2624b05cef" />
 
-### Checking a student's home university enrolment status
+### Checking a home university enrolment status
 
 1. Go to the table labeled as "enrolment_home_association"
-2. 
+2. Look at the **enrolment_business_decision_id** and match it with the **id** from the "person" table
+3. Look at the **created_at** column to then find the most recent state associated with that **business_decision_id**
+4. Look at the **state** column to find the current status from the home university.
+
+See an example below:
+
+<img width="1906" height="407" alt="image" src="https://github.com/user-attachments/assets/7838a006-22dd-44b9-bf6e-a470876afe5d" />
+<img width="1876" height="498" alt="image" src="https://github.com/user-attachments/assets/3fbd66c8-7502-4ad0-91d3-2c23600f8794" />
+
+If you look at the first photo we are in the "enrolment_business_decision" table. We are interested in the enrolment labeled with the id that equals 2. In the second photo we then find the enrolments that have the "enrolment_business_decision_id" which equal 2. There are four rows of information, by looking at the **created_at** column we see the most recent enrolment of the four, it being created at 12:01:01 on september 23rd. When we look at the **state** it is canceled. That means the home university has decided this enrolment is canceled.
 
 ## How to make enrolment decisions on outgoing DTU students
 
@@ -106,15 +115,12 @@ In order to see more information on an incoming student you must go to the "pers
 
 https://github.com/user-attachments/assets/586e675c-e606-4c0d-8d1e-70e3b0ee3e25
 
-
 ### Seeing more information
 
 In order to see more information on an outgoing student you must go to the "user_object" table in the database. There you will see each student has a **uuid**. Each row in the "user_object" table is a separate student, not a separate enrolment. You can find the outgoing student you are looking for by matching the **person_id** from the "associations" table with the **uuid** in the "user_object" table. Within the "user_object" table you should be able to see the basic information needed in order to make an enrolment decision.
 
 <img width="1428" height="305" alt="image" src="https://github.com/user-attachments/assets/452a5caf-8d6b-4ec0-9fa9-8a62656483cc" />
 <img width="1419" height="129" alt="image" src="https://github.com/user-attachments/assets/10224fab-dd16-4c0a-a210-03a942d2952d" />
-
-
 
 ## Appendix
 

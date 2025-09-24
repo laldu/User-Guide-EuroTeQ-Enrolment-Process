@@ -4,11 +4,11 @@ This is a user guide for the EuroTeQ Enrolment Automation System
 _Note_: To see the table of contents click on the outline button in the top-right corner
 
 ## Login
-### Go to Remote Desktop Connection
+### First go to the Remote Desktop Connection app
 
 <img width="1283" height="818" alt="image" src="https://github.com/user-attachments/assets/ff6ac2f4-e9d2-45d2-b88f-ee4a29c93070" />
 
-### Input server name and username, press "Connect", and enter password
+### Input the server name and your username, press "Connect", and enter your password
 _Note: place WIN\ before the username_
 
 <ins>Production server name:</ins> AIT-PWEBEUT02.win.dtu.dk\

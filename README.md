@@ -6,7 +6,7 @@ _Note_: To see the table of contents click on the outline button in the top-righ
 ## Login
 1. Go to Remote Desktop Connection
 2. Input server name and username and press "Connect" and enter password
-    - <ins>Production server name:</ins> AIT-PWEBEUT02.win.dtu.dk\
+    - <ins>Production server name:</ins> AIT-PWEBEUT02.win.dtu.dk
     - <ins>Test server name:</ins> ait-dwebeut01.win.dtu.dk
     - _Remember_ to place WIN\ before the username
 3. After the remote desktop starts open PGAdmin 4
@@ -14,6 +14,11 @@ _Note_: To see the table of contents click on the outline button in the top-righ
 <img width="1283" height="818" alt="image" src="https://github.com/user-attachments/assets/ff6ac2f4-e9d2-45d2-b88f-ee4a29c93070" />
 <img width="1130" height="654" alt="image" src="https://github.com/user-attachments/assets/de1df6c5-99fe-48ab-8317-dc136a6fcb0d" />
 <img width="864" height="512" alt="image" src="https://github.com/user-attachments/assets/77a837e5-57e2-469b-95c9-921188ec2957" />
+
+
+>[!IMPORTANT]
+>If you try to log in and are redirected to a screen saying their are already two users and you must kick off one, do not kick off Kasper. Kick the other user.
+<!-- Make sure to change this bit about Kasper and add picture when the situation shows up -->
 
 ## Entering the Enrolment Environment
 
@@ -125,9 +130,15 @@ In order to see more information on an outgoing student you must go to the "user
 
 ### Automated Email
 
-The automated email system is currently under works.
+The automated email system is a our way of automatically contacting _incoming_ students regarding their EuroTeQ enrolment. There are three ways in which automated emails are triggered:
 
+1. The student has clicked apply and given their credentials in the online course catalogue. This creates a confirmation email, informing the student their enrolment has been recieved by DTU.
+2. The administrator has set the **send_email_to_student** field to _true_ for the enrolment. This sends an email with the student's enrolment status directly to the student.
+3. The administrator has set the **send_email_to_student** field to _true_ and the home institution has set their student's status to _canceled_ then the student will recieve a cancellation email.
 
+### Cancellation Link
+
+This is a link present in the automated email that a student can click to cancel their enrolment. After clicking the cancellation link within the email, they will then be redirected to a cancellation form where they will confirm their cancellation. After confirming the cancellation their status will be automatically changed to canceled within our database.
 
 
 

@@ -98,7 +98,7 @@ ORDER BY id ASC
 ```
 
 
-https://github.com/user-attachments/assets/a65954dd-3bbb-415b-ae44-e4eb2fa4b5da
+https://github.com/user-attachments/assets/8c0bcebb-4d22-4ff1-92be-fddb802c08f0
 
 
 ## How to make enrolment decisions for outgoing DTU students

@@ -87,6 +87,20 @@ See an example below:
 
 If you look at the first photo we are in the "enrolment_business_decision" table. We are interested in the enrolment labeled with the id that equals 2. In the second photo we then find the enrolments that have the "enrolment_business_decision_id" which equal 2. There are four rows of information, by looking at the **created_at** column we see the most recent enrolment of the four, it being created at 12:01:01 on september 23rd. When we look at the **state** it is canceled. That means the home university has decided this enrolment is canceled.
 
+### Changing the host university column order
+
+In order to change the column order by switching **send_status_to_home** and **send_email_to_student** you must paste the following code into the "query" in pgAdmin.
+
+```SQL
+SELECT id, person_id, offering_id, status, send_status_to_home, send_email_to_student, home_institution, offering_name, request, public_uuid, created_at, modified_at, modified_by  
+FROM public.enrolment_business_decision
+ORDER BY id ASC
+```
+
+
+https://github.com/user-attachments/assets/a65954dd-3bbb-415b-ae44-e4eb2fa4b5da
+
+
 ## How to make enrolment decisions for outgoing DTU students
 
 ### Accessing the outgoing student enrolment data

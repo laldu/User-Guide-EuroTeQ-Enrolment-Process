@@ -42,6 +42,7 @@ _Note: place WIN\ before the username_
     - Each row within that table is a separate enrolment.
     - The "status" column is where you will change the enrolment decision to one of the [enrolment states](#enrolment-states).
     - When first seeing the table any enrolments that we have not made a decision on should be labeled as "NOT_CONSIDERED".
+    - If you would like to reorder the **send_status_to_home** and **send_email_to_student** columns see the following [section](#changing-the-column-order)
 
 2. Double-click on the status of the enrolment, type in a new enrolment status, and click "OK"
     - _Remember_: the status can only be input in upper-case
@@ -87,7 +88,7 @@ See an example below:
 
 If you look at the first photo we are in the "enrolment_business_decision" table. We are interested in the enrolment labeled with the id that equals 2. In the second photo we then find the enrolments that have the "enrolment_business_decision_id" which equal 2. There are four rows of information, by looking at the **created_at** column we see the most recent enrolment of the four, it being created at 12:01:01 on september 23rd. When we look at the **state** it is canceled. That means the home university has decided this enrolment is canceled.
 
-### Changing the host university column order
+### Changing the column order
 
 In order to change the column order by switching **send_status_to_home** and **send_email_to_student** you must paste the following code into the "query" in pgAdmin.
 

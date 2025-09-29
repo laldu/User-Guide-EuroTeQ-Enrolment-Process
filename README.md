@@ -4,9 +4,9 @@ This is a user guide for the EuroTeQ Enrolment Automation System
 _Note_: To see the table of contents click on the outline button in the top-right corner
 
 ## Login
-### First go to the Remote Desktop Connection app
+### First go to the RDCman app
 
-<img width="1283" height="818" alt="image" src="https://github.com/user-attachments/assets/ff6ac2f4-e9d2-45d2-b88f-ee4a29c93070" />
+<img width="708" height="599" alt="image" src="https://github.com/user-attachments/assets/a1aed945-59b4-4812-84d8-a2c2d315824e" />
 
 ### Input the server name and your username, press "Connect", and enter your password
 _Note: place WIN\ before the username_

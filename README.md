@@ -16,10 +16,6 @@ _Note: place WIN\ before the username_
 
 <img width="1130" height="654" alt="image" src="https://github.com/user-attachments/assets/de1df6c5-99fe-48ab-8317-dc136a6fcb0d" />
 
->[!IMPORTANT]
->If you try to log in and are redirected to a screen saying there are already two users and you must kick off one, do not kick off Kasper. Kick the other user.
-<!-- Make sure to change this bit about Kasper and add picture when the situation shows up -->
-
 ### After the remote desktop starts open PGAdmin 4
 
 <img width="864" height="512" alt="image" src="https://github.com/user-attachments/assets/77a837e5-57e2-469b-95c9-921188ec2957" />

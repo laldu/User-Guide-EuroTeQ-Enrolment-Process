@@ -36,6 +36,7 @@ _Note: place WIN\ before the username_
 
 1. Right click on the table labeled as "enrolment_business_decision", click on "View/Edit Data", click on "all rows"
     - Each row within that table is a separate enrolment.
+    - **The most recent enrollments are automatically at the bottom**
     - The "status" column is where you will change the enrolment decision to one of the [enrolment states](#enrolment-states).
     - When first seeing the table any enrolments that we have not made a decision on should be labeled as "NOT_CONSIDERED".
     - If you would like to reorder the **send_status_to_home** and **send_email_to_student** columns see the following [section](#changing-the-column-order)

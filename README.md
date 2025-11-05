@@ -164,6 +164,12 @@ The automated email system is a our way of automatically contacting _incoming_ s
 
 This is a link present in the automated email that a student can click to cancel their enrolment. After clicking the cancellation link within the email, they will then be redirected to a cancellation form where they will confirm their cancellation. After confirming the cancellation their status will be automatically changed to canceled within our database.
 
+### Filtering Data
+
+An option to filter data without writing SQL queries is through the built in filter in postgres. Like in the following example when we are refiltering the data based upon when it was created.
+
+https://github.com/user-attachments/assets/eae1d63a-30c5-4d00-9bf9-fbd4478960fc
+
 
 
 

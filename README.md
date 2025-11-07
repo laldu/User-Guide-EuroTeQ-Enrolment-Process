@@ -29,6 +29,7 @@ _Note: place WIN\ before the username_
 3. Under databases, click on the database titled: "student_mobility_enrollment_reciever_business"
 4. Go under "schemas" and there should be a section labeled "tables"
 5. That is where you will be enrolling students
+6. If you would like to select a specific student based on their data see the [SQL Guide](#SQL-Guide)
 
 <img width="551" height="574" alt="pgAdminDropdown" src="https://github.com/user-attachments/assets/c870933e-bbde-4582-98c9-779bb83965f9" />
 
@@ -167,7 +168,11 @@ An option to filter data without writing SQL queries is through the built in fil
 
 https://github.com/user-attachments/assets/eae1d63a-30c5-4d00-9bf9-fbd4478960fc
 
+### SQL Guide
 
+Using SQL queries can be a useful way to filter information and select specific students based upon their data. 
+
+For example, let's say you want to look at a specific enrolment from an incoming student. You can use a piece of data, like their **association_id** to filter all the enrolments associated with that student in a table. This is very useful if you want to check an incoming student's status from the home university.
 
 
 

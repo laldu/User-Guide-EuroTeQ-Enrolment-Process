@@ -100,13 +100,15 @@ If you look at the first photo we are in the "enrolment_business_decision" table
 ### Making an enrolment decision as the home university
 1. Right click on the table labeled as "associations", click on "View/Edit Data, click on "all rows"
      - Each row is an enrolment
-2. Go to the state column and double click on the state
+2. Check the level of study
+     - If you would like to check the level of study of the student you should [check the student data](#Seeing more DTU student information).
+4. Go to the state column and double click on the state
      - The **state** column is the status that DTU sets for their outgoing students
      - The **remote state** column is the status that DTU recieves from the partner university who is hosting their student
 > [!IMPORTANT]
 > Do not change the remote state!
-3. Type in the enrolment state and click "OK"
-     - _Remember_: the state is case sensitive and must be in upper-case
+4. Type in the enrolment state and click "OK"
+     - _Remember_: the state is case sensitive and must be in upper-case. For example use ASSOCIATED not associated
 5. Click on the button labeled as "Save Data Changes"
 
 https://github.com/user-attachments/assets/586e675c-e606-4c0d-8d1e-70e3b0ee3e25
@@ -117,6 +119,10 @@ In order to see more information on an outgoing student you must go to the "user
 
 <img width="1428" height="305" alt="image" src="https://github.com/user-attachments/assets/452a5caf-8d6b-4ec0-9fa9-8a62656483cc" />
 <img width="1419" height="129" alt="image" src="https://github.com/user-attachments/assets/10224fab-dd16-4c0a-a210-03a942d2952d" />
+
+If you would like to check the _level of study_ of an outgoing student you can see that in the **academic_degree_code** and the **consumers** columns in the "user_object" table. The **consumers** column shows the students entire _program of study_.
+
+
 
 ## Appendix
 

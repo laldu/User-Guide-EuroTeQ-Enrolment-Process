@@ -120,7 +120,11 @@ In order to see more information on an outgoing student you must go to the "user
 <img width="1428" height="305" alt="image" src="https://github.com/user-attachments/assets/452a5caf-8d6b-4ec0-9fa9-8a62656483cc" />
 <img width="1419" height="129" alt="image" src="https://github.com/user-attachments/assets/10224fab-dd16-4c0a-a210-03a942d2952d" />
 
-If you would like to check the _level of study_ of an outgoing student you can see that in the **academic_degree_code** and the **consumers** columns in the "user_object" table. The **consumers** column shows the students entire _program of study_.
+If you would like to check the _level of study_ of an outgoing student you can see that in the **academic_degree_code** and the **consumers** columns in the "user_object" table. The **consumers** column shows the student's entire _program of study_.
+
+<img width="709" height="211" alt="image" src="https://github.com/user-attachments/assets/e4824ca7-7f98-4892-993c-3d2298d70399" />
+
+<img width="1330" height="189" alt="image" src="https://github.com/user-attachments/assets/e6b5dd07-b2af-455c-90d6-3a54d6d85258" />
 
 
 
